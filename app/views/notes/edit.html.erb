@@ -1,0 +1,12 @@
+<h1>Editing note</h1>
+
+<section>
+<%= render "form", note: @note %>
+</section>
+
+<br>
+
+<div>
+  <%= link_to "Show this note", @note %> |
+  <%= link_to "Back to notes", notes_path %>
+</div>
